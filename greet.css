@@ -1,0 +1,247 @@
+h1{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-shadow: 2px 2px 5px red;
+}
+h2{
+  font-family: 'Courier Prime', monospace;
+  text-shadow: 2px 2px 5px red;
+
+}
+h3{
+  font-family: 'Righteous', cursive;
+  color:#03506f;
+  text-shadow: 2px 2px 5px red;
+}
+p{
+  font-family: 'Courgette', cursive;
+  color: #606470;
+  text-shadow: 2px 2px 5px black;
+
+}
+hr{
+  border-top: 3px double #fff;
+    color: #fff;
+}
+/* title-section */
+/* #title{
+background-image: radial-gradient( circle 1294px at -15.5% 23.8%,  rgba(255,206,149,1) 0%, rgba(247,92,92,1) 44.9%, rgba(108,0,96,0.97) 93.8% );
+
+
+  max-width: 100%;
+} */
+.navbar {
+
+  padding: 8px 0 10px;
+}
+.navbar-brand{
+  font-family: 'Charm', cursive;
+  font-size: 2.5rem;
+
+}
+.nav-item
+{
+  font-family: 'Scheherazade', serif;
+  font-size: 1.5rem;
+  padding: 0 18px;
+}
+.g-link{
+  text-shadow: 2px 2px 1px black;
+}
+.dropdown-item{
+  font-family: 'Scheherazade', serif;
+  font-size: 1.5rem;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.c-title{
+  padding: 0 5%;
+}
+/* birthday  */
+#title{
+
+}
+.g-brand{
+  font-size: 3rem;
+  text-shadow: 3px 3px 5px #FF007B;
+}
+.g-quotes{
+  text-align: center;
+  padding: 3% 15% ;
+  /* width: 50%; */
+}
+.g-gif{
+  float:left;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+}
+.g-quote{
+  padding-bottom: 10%;
+  padding-top: 5%;
+
+}
+.g-title{
+  margin: 0 7%;
+  padding-top: 4%;
+}
+/* feature */
+.featured {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+@media only screen and (min-width: 1200px){
+.container {
+    max-width: 1170px;
+}}
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.section-title h2 {
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+}
+h2 {
+    font-size: 36px;
+    color: #fff;
+}
+h5{
+  color: #fff;
+  text-shadow: 2px 2px 5px black;
+}
+h6{
+color: #fff;
+text-shadow: 2px 2px 5px black;
+}
+
+.featured__controls {
+    text-align: center;
+    margin-bottom: 50px;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+.featured__controls ul li {
+    list-style: none;
+    font-size: 18px;
+    color: #1c1c1c;
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.featured__controls ul li.active:after {
+    opacity: 1;
+}
+.featured__controls ul li:after {
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: #7fad39;
+    content: "";
+    opacity: 0;
+}
+.featured__controls ul li:last-child {
+    margin-right: 0;  }
+.featured__item {
+    margin-bottom: 50px;
+}
+.featured__item__pic {
+    height: 250px;
+  background-size:contain;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+}
+
+.featured__item__text {
+    text-align: center;
+    padding-top: 15px;
+}
+.featured__item__text h6 {
+    margin-bottom: 10px;
+}
+.featured__item__text h6 a {
+    color: #fff;
+}
+.featured__item__text h5 {
+    color: #fff;
+    font-weight: 700;
+}
+.end{
+  margin: 0 15%;
+
+  color: #fff;
+}
+.featured__item__pic__hover{
+  padding-top:  75%;
+  padding-left: 28%;
+
+
+}
+.featured__item__pic__hover a i{
+color: #1c1c1c;
+font-size: 16px;
+
+height: 40px;
+width: 35px;
+line-height: 40px;
+transform: rotate(0);
+}
+.featured__item__pic__hover a i:hover {
+
+
+  border: 100% solid #ebebeb;
+    background: #ffffff;
+    font-size: 16px;
+
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+position: relative;
+-webkit-transition: all, 0.3s;
+    -moz-transition: all, 0.3s;
+    -ms-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    transition: all, 0.3s;
+
+}
+/* footer section */
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  
+}
+
+.social-icon{
+  margin: 20px 10px;
+  color: #fff;
+}
+
+.f-text{
+  color: #fff;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+
+  }
+  .title-image{
+    transform: rotate(0);
+    padding-left: 1%;
+  }
+}
+marquee{
+  text-shadow: 2px 2px 5px red;
+}
