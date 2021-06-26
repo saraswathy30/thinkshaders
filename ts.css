@@ -1,0 +1,155 @@
+.navbar {
+  margin-bottom: 20px;
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Charm', cursive;
+  font-size: 2.5rem;
+}
+.nav-item
+{
+  font-family: 'Scheherazade', serif;
+  font-size: 1.5rem;
+  padding: 0 18px;
+}
+.dropdown-item{
+  font-family: 'Scheherazade', serif;
+  font-size: 1.5rem;
+}
+
+h1{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Courier Prime', monospace;
+
+}
+h3{
+  font-family: 'Righteous', cursive;
+  color:#03506f;
+}
+p{
+  font-family: 'Courgette', cursive;
+  color: #606470;
+
+}
+/* title-section */
+#title{
+  background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
+
+
+  max-width: 100%;
+}
+.title-image{
+ height: 250px;
+
+  transform: rotate(20deg);
+
+  padding-left: 30px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* feature section */ 
+@media screen {
+  
+}
+#feature{
+background-image: radial-gradient( circle 1224px at 10.6% 8.8%,  rgba(255,255,255,1) 0%, rgba(153,202,251,1) 100.2% );
+padding: 3% 15%;
+}
+.f-image{
+width: 80%;
+height: 500px;
+padding: 40px 40px 40px 40px ;
+}
+.carousel-inner
+{
+text-align:center;
+
+
+}
+.feature-block{
+  text-align: center;
+  padding: 3%;
+}
+.icon{
+  color: #ff9292;
+  margin: 1rem;
+}
+.icon:hover{
+  color:#f96d80;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+background-image: radial-gradient( circle farthest-corner at 1.5% 1.4%,  rgba(159,227,255,1) 0%, rgba(255,177,219,1) 100.2% );
+}
+.p-col{
+  padding: 3% 2%;
+}
+.c-free:hover{
+  background-color: #f8f7de;
+}
+.c-silver:hover{
+  background-color: #d1d9d9;
+}
+
+.c-gold:hover{
+  background-color: #ffd57e;
+}
+/* footer section */
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
+}
+
+.social-icon{
+  margin: 20px 10px;
+  color: #fff;
+}
+
+.f-text{
+  color: #161616;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+
+  }
+  .title-image{
+    transform: rotate(0);
+    padding-left: 1%;
+  }
+   .nav {
+      padding-left:2px;
+      padding-right:2px;
+  }
+  .nav li {
+      display:block !important;
+      width:100%;
+      margin:0px;
+  }
+  .nav li.active {
+      border-bottom:1px solid #ddd!important;
+      margin: 0px;
+  }
+}
+/* @media screen and (max-width: 480px) {
+ 
+} */
